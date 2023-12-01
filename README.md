@@ -17,9 +17,6 @@ To set up your environment to run the project, follow these steps:
 
   ```bash
   pip install -r requirements.txt
-  ```
-  
-  ```bash
   python3 -m spacy download en_core_web_sm
   ```
 
