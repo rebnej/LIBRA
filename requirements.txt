@@ -1,0 +1,13 @@
+torchtext
+sklearn
+spacy
+scipy
+scikit-learn
+pycocotools
+tqdm
+nltk
+transformers
+sentencepiece
+
+
+
