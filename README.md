@@ -1,6 +1,7 @@
-# Project Title
+# Model-Agnostic Gender Debiased Image Captioning (CVPR 2023) 
+[paper]: https://openaccess.thecvf.com/content/CVPR2023/papers/Hirota_Model-Agnostic_Gender_Debiased_Image_Captioning_CVPR_2023_paper.pdf
+This repository contains source code for the paper titled: "Model-Agnostic Gender Debiased Image Captioning" (Accepted to CVPR 2023). [paper] 
 
-Short description of your project goes here.
 
 ## Installation
 
@@ -34,12 +35,12 @@ Replace `[add your parameters here]` with the appropriate parameters for your sc
 If you use this project in your research or wish to refer to the baseline results published in the paper, please use the following .bib entry.
 
 ```bibtex
-@article{your_citation_here,
-  title={Your Paper Title},
-  author={Your Name and Co-authors},
-  journal={Journal or Conference Name},
-  year={Year},
-  publisher={Publisher}
+@inproceedings{hirota2023model,
+  title={Model-Agnostic Gender Debiased Image Captioning},
+  author={Hirota, Yusuke and Nakashima, Yuta and Garcia, Noa},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={15191--15200},
+  year={2023}
 }
 ```
 
