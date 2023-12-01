@@ -1,6 +1,6 @@
 # Model-Agnostic Gender Debiased Image Captioning (CVPR 2023) 
-[paper]: https://openaccess.thecvf.com/content/CVPR2023/papers/Hirota_Model-Agnostic_Gender_Debiased_Image_Captioning_CVPR_2023_paper.pdf
-This repository contains source code for the paper titled: "Model-Agnostic Gender Debiased Image Captioning" (Accepted to CVPR 2023). [paper] 
+[paper]: https://arxiv.org/abs/2304.03693 
+This repository contains source code for the paper titled: "Model-Agnostic Gender Debiased Image Captioning" (Accepted to CVPR 2023). [[paper]] 
 
 
 ## Installation
