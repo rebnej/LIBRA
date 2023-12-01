@@ -8,8 +8,8 @@ This repository contains source code for the paper titled: "Model-Agnostic Gende
 To set up your environment to run the project, follow these steps:
 
 - **Requirements**:
-  - PyTorch (specify version)
-  - CUDA (specify version)
+  - PyTorch: 1.11.0 
+  - CUDA >= 11.3
 
 - **Install Dependencies**:
   Run the following command to install the necessary packages:
@@ -19,6 +19,11 @@ To set up your environment to run the project, follow these steps:
   ```
 
 ## Usage
+
+### Data preparation
+
+* Download COCO 2014 (train and validation sets) from https://cocodataset.org/. 
+* Place .pkl file of the output captions of a image captioning model in `Data`. Please refer the 
 
 ### Generate Debiased Captions
 

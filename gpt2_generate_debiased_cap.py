@@ -173,9 +173,15 @@ def prepare_data(args):
     print('Load pred cap entries from %s' %args.pred_cap_path)
     print('len(pred_cap_entries):', len(pred_cap_entries))
 
+    # Load gender subset
+    imid_2_gender = pickle.load(open('Data/val_imid_gender.pkl','rb'))
+
     # Further preprocess the data
     new_pred_cap_entries = []
     for entry in pred_cap_entries:
+        if entry['image_id'] not in imid_2_gender:
+            continue
+
         new_entry = {}
         #gender = id_2_original_gender_val[entry['image_id']]
 
