@@ -25,7 +25,7 @@ To set up your environment to run the project, follow these steps:
 ### Data preparation
 
 * Download COCO 2014 (train and validation sets) from https://cocodataset.org/. 
-* Place .pkl file of the output captions of a image captioning model in `Data`. Please refer to `oscar_preds.pkl` in `Data` for the format.  
+* Place .pkl file of the output captions of an image captioning model in `Data`. Please refer to `oscar_preds.pkl` in `Data` for the format.  
 
 ### Model preparation
 
